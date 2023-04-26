@@ -1,19 +1,20 @@
 import React from 'react'
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
+// import Home from './Home';
 import ClassComponent from './Class Component';
 import FunctionComponent from './FunctionComponent';
 import State from './State'
 import Profile from './HideAndShow'
 import Event from './EventHandling'
+import Watch from './SmartWatch/Watch';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home />
+        {/* <img src={logo} className="App-logo" alt="logo" />
+        <Home /> */}
         <ClassComponent text="Class Profile Component"
         />
         <FunctionComponent text="Function Profile Component"
@@ -36,8 +37,8 @@ function App() {
         <State />
         <Profile />
         <Event />
-
       </header>
+      <Watch />
     </div>
   );
 }
