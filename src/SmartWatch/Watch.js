@@ -21,6 +21,16 @@ class Watch extends Component {
         this.setState({ currentSelectedFeature: pos })
     }
 
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log('should component Update')
+    //     if (nextState.currentPreviewImagePos === this.state.currentPreviewImagePos) {
+    //         return false;
+    //     }
+    //     else {
+    //         return true;
+    //     }
+    // }
+
     render() {
         return (
             <div className="Watch">
