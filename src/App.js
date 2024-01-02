@@ -1,13 +1,14 @@
 import React from 'react'
-// import logo from './logo.svg';
 import './App.css';
 // import Home from './Home';
-import ClassComponent from './Class Component';
-import FunctionComponent from './FunctionComponent';
-import State from './State'
-import Profile from './HideAndShow'
-import Event from './EventHandling'
-import Watch from './SmartWatch/Watch';
+import ClassComponent from './components/Practice/Class Component';
+import FunctionComponent from './components/Practice/FunctionComponent';
+import State from './components/Practice/State'
+import Profile from './components/Practice/HideAndShow'
+import Event from './components/Practice/EventHandling'
+import Watch from './components/SmartWatch/Watch';
+import Todo from './components/TodoList/Todo';
+import Slider from './components/Slider/Slider';
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         <Event />
       </header>
       <Watch />
+      <Todo />
+      <Slider />
     </div>
   );
 }
