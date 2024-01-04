@@ -9,6 +9,7 @@ import Event from './components/Practice/EventHandling'
 import Watch from './components/SmartWatch/Watch';
 import Todo from './components/TodoList/Todo';
 import Slider from './components/Slider/Slider';
+import DropDownSelectMenu from './components/DropDown/DropDownSelectMenu';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <Watch />
       <Todo />
       <Slider />
+      <DropDownSelectMenu />
     </div>
   );
 }
