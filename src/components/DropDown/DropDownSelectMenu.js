@@ -13,7 +13,7 @@ const DropDownSelectMenu = () => {
         fetch('https://restcountries.com/v2/all?fields=name')
             .then(res => res.json())
             .then((data) => {
-                console.log(data)
+                // console.log(data)
                 setCountries(data)
             })
     }, [])
